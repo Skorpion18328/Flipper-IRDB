@@ -1,0 +1,29 @@
+Filetype: IR signals file
+Version: 1
+#
+name: On/Off
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: C4 00 00 00
+
+#
+name: Dimmer
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: C1 00 00 00
+
+#
+name: Low Temp
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: C8 00 00 00
+
+#
+name: High Temp
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: C9 00 00 00
